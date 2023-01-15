@@ -54,10 +54,10 @@ function undo() {
             // if we have more than one group
             } else {
                 // remove the last group
-                groups.pop()
+                let lastGroup = groups.pop()
                 groupsEl.innerText = groups
                 // update the total
-                total -= groups[groups.length - 1]
+                total -= lastGroup
                 totalEl.innerText = total
             }
         // if we haven't entered any groups yet    
