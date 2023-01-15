@@ -36,25 +36,31 @@ function add() {
 function undo() {
     console.log("Undo button was clicked.")
     
-
+    // if we just want to reset the people entering
     if (count > 0) {
         count = 0
         countEl.innerText = count
+    // if we want to remove the last group and update the total    
     } else {
+        // if we have enytered groups already
         if (groups.length > 0) {
+            // if we only have one group
             if (groups.length == 1) {
                 groups.pop()
                 groupsEl.innerText = 0
     
                 total = 0
                 totalEl.innerText = total
+            // if we have more than one group
             } else {
+                // remove the last group
                 groups.pop()
                 groupsEl.innerText = groups
-    
+                // update the total
                 total -= groups[groups.length - 1]
                 totalEl.innerText = total
             }
+        // if we haven't entered any groups yet    
         }
     }
 }

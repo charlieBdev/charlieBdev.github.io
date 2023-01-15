@@ -22,17 +22,13 @@ button {
 }
 
 #increment-btn {
-    background: darkred;
-}
-
-#add-btn {
     background: darkgreen;
 }
 
-#undo-btn {
+#add-btn {
     background: darkblue;
 }
 
-#finish-btn {
-    background: darkturquoise;
+#undo-btn {
+    background: darkred;
 }
