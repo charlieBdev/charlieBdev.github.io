@@ -21,14 +21,17 @@
     </header>
 
     <section>
-        <h1>Welcome to My Website!</h1>
+        <hr>
+        <h1>Welcome to My Frontend Dev Profile!</h1>
     </section>
 
     <section id="about">
+        <hr>
         <h2>About</h2>
         <div>
             <p>My name is Charlie. I'm an 'aspiring' Frontend Developer from Sheffield.</p>
-            <p>I'm interested in the usual HTML, CSS, JavaScript, of course, but I've also coded using C#, Python, SQL, and PHP.</p>
+            <p>I'm interested in the usual HTML, CSS, JavaScript, of course, but I've also coded using C# (see here) and have a good basic basic understanding of Python, SQL, and PHP.</p>
+            <p>Please feel free to check out my projects below and send me a message/email if you'd like to get in touch!</p>
             <div>
                 <p>Here's a picture of Saturn at night, because... why not? ;)</p>
                 <img src="https://apod.nasa.gov/apod/image/2211/LastRingPortrait_Cassini_4472.jpg" alt="Saturn at Night" width="100%">
@@ -42,27 +45,38 @@
 
         <div>
 
-            <p>Here are some <a href="https://scrimba.com">Scrimba</a> projects I created with a little guidance.</p>
+            <p>Below are three <a href="https://scrimba.com">Scrimba</a> projects I created with a little 'guidance'.</p>
+            <p>Where possible I've added my own improvements.</p>
 
             <div>
+                <hr>
                 <h3>Passenger Counter</h3>
-                <p>This counts passengers getting on a train/plane/boat/spaceship/etc!</p>
+                <h4>What it does:</h4>
+                <p>Counts passengers getting on a train/plane/boat/spaceship/etc!</p>
+                <p>I added an undo button to kick off any unruly groups that enter the carriage.</p>
 
                 <div class="passenger-counter">
-                    <h1>People entered:</h1>
-                    <h2 id="count-el">0</h2>
+                    <h3>People entered:</h3>
+                    <h3 id="count-el">0</h3>
                     <!-- Counter Buttons -->
                     <button id="increment-btn" onclick="increment()">INCREMENT</button>
-                    <button id="save-btn" onclick="save()">SAVE</button>                    
+                    <button id="add-btn" onclick="add()">ADD</button>
+                    <button id="undo-btn" onclick="undo()">UNDO</button>
+                    <h3>Groups entered:</h3>
+                    <h3 id="groups-el">0</h3>               
+                    <h3>Total passengers:<h3 id=""><h3></h3>     
+                    <h3 id="total-el">0</h3>
                 </div>
             </div>
     
             <div>
+                <hr>
                 <h3>Blackjack Game</h3>
                 <p></p>
             </div>
     
             <div>
+                <hr>
                 <h3>Chrome Extension: Lead Tracker</h3>
                 <p></p>
             </div>
@@ -74,6 +88,7 @@
     </section>
 
     <section id="contact">
+        <hr>
         <h2>Contact</h2>
         <p></p>
     </section>
