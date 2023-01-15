@@ -15,5 +15,3 @@ function increment() {
 function save() {
     console.log("The count is " + count)
 }
-
-console.log(count)
