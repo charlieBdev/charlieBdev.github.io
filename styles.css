@@ -13,7 +13,9 @@ nav {
     width: 100px;
     
     border-radius: 10px;
-    background-color: aqua;
+    background-color: azure;
+    font-weight: bold;
+    border: solid black 1px;
 }
 
 .nav-a {
