@@ -18,14 +18,14 @@ nav {
     border: solid black 1px;
 }
 
+.nav-a:hover {
+    color: darkorchid;
+}
+
 .nav-a {
     text-decoration: none;
     width: 100px;
     
-}
-
-.nav-a:hover {
-    color: darkorchid;
 }
 
 a:visited {
