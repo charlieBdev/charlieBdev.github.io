@@ -12,20 +12,15 @@ nav {
     padding: 10px;
     width: 100px;
     
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: azure;
     font-weight: bold;
     border: solid black 1px;
 }
 
-.nav-a:hover {
-    color: darkorchid;
-}
-
 .nav-a {
     text-decoration: none;
     width: 100px;
-    
 }
 
 a:visited {
@@ -77,4 +72,8 @@ button {
 
 #undo-btn {
     background: darkred;
+}
+
+button:hover {
+    color: black;
 }
