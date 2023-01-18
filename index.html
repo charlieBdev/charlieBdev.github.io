@@ -30,10 +30,14 @@
         <h2>ABOUT</h2>
         <div>
             <p>Hi! My name is Charlie. I'm an 'aspiring' Frontend Developer from Sheffield.</p>
-            <p>I'm interested in the usual <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, of course, but I've also coded using <b>C#</b> (<a href="#sunnySurfboards">see my C# project here</a>) and have a basic understanding of <b>Python</b>, <b>SQL</b>, and <b>PHP</b>.</p>
-            <p>In my spare time I'm currently study Harvard's CS50 (Computer Science with a lot of <b>C</b> so far) and hope to get stuck into <b>React</b>, <b>SASS</b>, and maybe <b>TypeScript</b> in the not too distant future.</p>
-            <p>My hobbies include listening to podcasts (The News Agents, TRIP, Ukrainecast, The Trawl, and Sweeney Talks), reading non-fiction, and gaming.</p>
-            <p>My biggest achievements are probably my BSc in Applied Computing 🎓 (from 2007!) and the fact that I'm a BJJ brown belt 🥋. Oh, and my two kids are awesome!</p>
+            <div id="extraText">
+                <p>I'm interested in the usual <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, of course, but I've also coded using <b>C#</b> (<a href="#sunnySurfboards">see my C# project here</a>) and have a basic understanding of <b>Python</b>, <b>SQL</b>, and <b>PHP</b>.</p>
+                <p>In my spare time I'm currently study Harvard's CS50 (Computer Science with a lot of <b>C</b> so far) and hope to get stuck into <b>React</b>, <b>SASS</b>, and maybe <b>TypeScript</b> in the not too distant future.</p>
+                <p>My hobbies include listening to podcasts (The News Agents, TRIP, Ukrainecast, The Trawl, and Sweeney Talks), reading non-fiction, and gaming.</p>
+                <p>My biggest achievements are probably my BSc in Applied Computing 🎓 (from 2007!) and the fact that I'm a BJJ brown belt 🥋. Oh, and my two kids are awesome!</p>
+            </div>
+            
+            <a href="" onclick="expandAbout()">Click to read more</a>
             <p>Please feel free to check out my projects below and send me a message/email if you'd like to get in touch!</p>
         </div>
         
@@ -50,11 +54,7 @@
             <div>
                 <hr>
                 <h3>Passenger Counter</h3>
-                <h4>Who it's for:</h4>
-                <p>People who work in stations!</p>
-                <h4>What it does:</h4>
-                <p>Counts passengers getting on a train/plane/boat/spaceship/etc!</p>
-                <h4>Funky details:</h4>
+                <p>This handy counter is for people who work in stations and have to count passengers boarding vehicles.</p>
                 <p>I added an undo button to kick off any unruly groups that enter the carriage. It also resets the people entering if you entered too many and want to start again.</p>
 
                 <div class="passenger-counter">
@@ -66,7 +66,7 @@
                     <button id="undo-btn" onclick="undo()">UNDO</button>
                     <h3>Size of Groups Entered:</h3>
                     <h3 id="groups-el">0</h3>               
-                    <h3>Total Passengers:<h3 id=""><h3></h3>     
+                    <h3>Total Passengers:</h3>     
                     <h3 id="total-el">0</h3>
                 </div>
             </div>
@@ -86,10 +86,11 @@
             <div>
                 <hr>
                 <h3 id="sunnySurfboards">Sunny Surfboards</h3>
-                <p>I created this Windows Forms App using <b>C#</b> and the <b>.NET</b> framework.</p>
-                <p>It was created while I was on a recent <a href="http://sheffcol.ac.uk/Skills-Bootcamps" target="_blank">Software Development Bootcamp at Sheffield College</a> for a fictional company to help their staff calculate totals for their customers renting surfboards and wetsuits.</p>
-                <p>The project was tracked using <b>Monday</b> and tested using <b>dynamic</b> (debugging while coding), <b>unit</b> (testing one button's functionality, for example), and <b>functional</b> (testing the whole system as a user may interact with it) testing methods.</p>
-                <img src="/img/sunny-surfboards.png" alt="Sunny Surfboards App" width="50%">
+                <p>I created this Windows Forms App during a recent <a href="http://sheffcol.ac.uk/Skills-Bootcamps" target="_blank">Software Development Bootcamp at Sheffield College</a> using <b>C#</b> and the <b>.NET</b> framework.</p>
+                <p>The app is for a fictional company to help their staff calculate totals for their customers renting surfboards and wetsuits.</p>
+                <img src="/img/sunny-surfboards.png" alt="Sunny Surfboards App" title="A picture of the Sunny Surfboards app I made using C#." width="75%">
+                
+                <p>The project was managed using <b>Monday</b> and tested using <b>dynamic</b>, <b>unit</b>, and <b>functional</b> testing methods.</p>
             </div>
 
         </div>

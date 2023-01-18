@@ -6,13 +6,31 @@ let total = 0
 let countEl = document.getElementById("count-el")
 let groupsEl = document.getElementById("groups-el")
 let totalEl = document.getElementById("total-el")
+let extraText = document.getElementsById("extraText")
+
+let isExpanded = false
+
+function expandAbout() {
+
+    if (!isExpanded) {
+        // change css to visible and height to auto
+        extraText.visibility = visible
+        extraText.height = auto
+        isExpanded = true
+    } else {
+        // change css to hidden and height to 0
+        extraText.visibility = hidden
+        extraText.height = 0
+        isExpanded = false
+    }
+}
 
 // increment
 function increment() {
     count++
     console.log("Increment button was clicked.")
     countEl.innerText = count
-    
+
 }
 
 // save
@@ -35,12 +53,12 @@ function add() {
 // undo
 function undo() {
     console.log("Undo button was clicked.")
-    
+
     // if we just want to reset the people entering
     if (count > 0) {
         count = 0
         countEl.innerText = count
-    // if we want to remove the last group and update the total    
+    // if we want to remove the last group and update the total
     } else {
         if (total > 0) {
             let lastGroup = groups.pop()
@@ -50,8 +68,8 @@ function undo() {
             if (groups.length < 1) {
                 groupsEl.innerText = "0"
             } else {
-                groupsEl.innerText = groups    
+                groupsEl.innerText = groups
             }
-        }        
+        }
     }
 }

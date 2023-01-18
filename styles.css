@@ -16,6 +16,7 @@ nav {
     background-color: azure;
     font-weight: bold;
     border: solid black 1px;
+    margin-bottom: 5px;;
 }
 
 .nav-a {
@@ -33,6 +34,11 @@ a {
 
 a:hover {
     color: darkorchid;
+}
+
+#extraText {
+    visibility: hidden;
+    height: 0;
 }
 
 body {
