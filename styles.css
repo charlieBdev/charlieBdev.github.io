@@ -64,19 +64,22 @@ button {
 }
 
 .passenger-counter {
-    background-color: antiquewhite;
+    background-color:azure;
 }
 
 #increment-btn {
-    background: darkturquoise;
+    background: darkblue;
+    width: 150px;
 }
 
 #add-btn {
     background: darkgreen;
+    width: 150px;
 }
 
 #undo-btn {
     background: darkred;
+    width: 150px;
 }
 
 button:hover {
