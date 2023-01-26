@@ -64,22 +64,37 @@ button {
 }
 
 .passenger-counter {
-    background-color:azure;
+    background-image: url("img/robert-tudor--8x6Ffud7Bk-unsplash.jpg");
+    background-size: cover;
+    max-width: 250px;
+    height: 500px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.container {
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    
 }
 
 #increment-btn {
     background: darkblue;
     width: 150px;
+    border: 1px white solid;
 }
 
 #add-btn {
     background: darkgreen;
     width: 150px;
+    border: 1px white solid;
 }
 
 #undo-btn {
     background: darkred;
     width: 150px;
+    border: 1px white solid;
 }
 
 button:hover {
