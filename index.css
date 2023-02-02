@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.construction {
+    text-align: center;
+}
+
 nav {
     text-align: center;
 }
@@ -20,7 +24,6 @@ nav {
 }
 
 .nav-a {
-    text-decoration: none;
     width: 100px;
 }
 
@@ -44,7 +47,14 @@ h1 {
     text-align: center;
 }
 
-.construction {
+h2 {
+    font-size:medium;
+    font-style: oblique;
+    text-decoration-line: underline;
+}
+
+h3 {
+    font-size: large;
     text-align: center;
 }
 
@@ -76,7 +86,6 @@ button {
     padding-top: 50px;
     text-align: center;
     color: white;
-    
 }
 
 #increment-btn {
@@ -99,4 +108,9 @@ button {
 
 button:hover {
     color: black;
+}
+
+.sunnySurfboards {
+    max-width: 75%;
+    width: auto;
 }

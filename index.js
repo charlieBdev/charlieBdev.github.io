@@ -21,8 +21,9 @@ document
             document.getElementById("readMore").innerHTML = "Click to read less";
             isExpandable = true;
         } else {
-            aboutMeText.innerHTML = "Hi! My name is Charlie. I'm an 'aspiring' Frontend Developer from Sheffield.";
-            document.getElementById("readMore").innerHTML = "Click to read more";
+            // textContent used instead of innerHTML, just because!
+            aboutMeText.textContent = "Hi! My name is Charlie. I'm an 'aspiring' Frontend Developer from Sheffield.";
+            document.getElementById("readMore").textContent = "Click to read more";
             isExpandable = false;
         }
     });
