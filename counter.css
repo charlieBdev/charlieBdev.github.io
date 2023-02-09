@@ -1,0 +1,53 @@
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*  */
+
+.passenger-counter {
+    background-image: url("img/robert-tudor--8x6Ffud7Bk-unsplash.jpg");
+    background-size: cover;
+    max-width: 250px;
+    height: 500px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.passenger-container {
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+button:hover {
+    color: black;
+}
+
+#increment-btn {
+    background: darkblue;
+    width: 150px;
+    border: 1px white solid;
+}
+
+#add-btn {
+    background: darkgreen;
+    width: 150px;
+    border: 1px white solid;
+}
+
+#undo-btn {
+    background: darkred;
+    width: 150px;
+    border: 1px white solid;
+}
