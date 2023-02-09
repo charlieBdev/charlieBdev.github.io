@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passenger Counter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="passenger-counter">
+        <div class="container">
+            <h3>People Entering:</h3>
+            <h3 id="count-el">0</h3>
+            <!-- Counter Buttons -->
+            <button id="increment-btn" onclick="increment()">INCREMENT</button>
+            <button id="add-btn" onclick="add()">ADD GROUP</button>
+            <button id="undo-btn" onclick="undo()">UNDO</button>
+            <h3>Size of Groups Entered:</h3>
+            <h3 id="groups-el">0</h3>               
+            <h3>Total Passengers:</h3>     
+            <h3 id="total-el">0</h3>
+        </div>
+    </div>
+
+    <script src="counter.js"></script>
+</body>
+</html>
