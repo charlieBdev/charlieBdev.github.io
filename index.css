@@ -1,6 +1,35 @@
+body {
+    color: #e0fbfc;
+    background-color: #293241;
+}
+
+.navTog {
+    border-color: #98c1d9;
+}
+
+h1 {
+    color: #e0fbfc;
+}
+
+p {
+    color: #98c1d9;
+}
+
+h3 {
+    color: #e0fbfc;
+}
+
+small {
+    color: #ee6c4d;
+}
+
 .myCard {
     display: flex;
-    padding: 10px;
+}
+
+.myPic {
+    width: 150px;
+    height: 150px;
 }
 
 .cardText {
