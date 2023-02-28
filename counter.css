@@ -51,3 +51,7 @@ button:hover {
     width: 150px;
     border: 1px white solid;
 }
+
+h3 {
+    text-shadow: 1px 1px 1px black;
+}
