@@ -40,6 +40,14 @@ small {
 
 .sSApp {
     display: flex;
-    width: 75%;
+    width: 65%;
     margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
