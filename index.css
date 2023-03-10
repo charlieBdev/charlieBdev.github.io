@@ -51,3 +51,19 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.nav-link {
+    color:#98c1d9
+}
+
+.nav-link:hover {
+    color:#ee6c4d
+}
+
+.dropdown-menu {
+    background-color: #293241;
+}
+
+.dropdown-item {
+    color: #e0fbfc
+}
