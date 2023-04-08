@@ -12,7 +12,7 @@ h1 {
 }
 
 p {
-    color: #98c1d9;
+    color: #e0fbfc;
 }
 
 h3 {
@@ -20,7 +20,7 @@ h3 {
 }
 
 a {
-    color: #e0fbfc;
+    color: #98c1d9;
 }
 
 small {
@@ -70,4 +70,9 @@ a:hover {
 
 .dropdown-item {
     color: #e0fbfc
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
 }
