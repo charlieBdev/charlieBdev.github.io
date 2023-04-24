@@ -1,84 +1,28 @@
-body {
-    color: #e0fbfc;
-    background-color: #293241;
-}
-
-.navTog {
-    border-color: #98c1d9;
-}
-
-h1 {
-    color: #e0fbfc;
-}
-
-p {
-    color: #e0fbfc;
-}
-
-h3 {
-    color: #ee6c4d;
-}
-
-a {
-    color: #98c1d9;
-}
-
-small {
-    color: #ee6c4d;
-}
-
-.myCard {
+.header {
+    background-color: aqua;
     display: flex;
+    justify-content: center;
 }
 
-.myPic {
-    width: 150px;
-    height: 150px;
-}
-
-.cardText {
-    padding-top: 10px;
-    padding-left: 10px;
-    
-}
-
-/* .sSApp {
+.nav {
+    background-color: aquamarine;
     display: flex;
-    width: 65%;
-    margin: auto;
-} */
-
-a {
-    text-decoration: none;
+    justify-content: space-evenly;
 }
 
-a:hover {
-    text-decoration: underline;
+.main {
+    display: flex;
+    flex-direction: column;
 }
 
-.nav-link {
-    color:#98c1d9
-}
-
-.nav-link:hover {
-    color:#ee6c4d
-}
-
-.dropdown-menu {
-    background-color: #293241;
-}
-
-.dropdown-item {
-    color: #e0fbfc
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    /* justify-content: center; */
 }
 
 .icons {
     display: flex;
-    justify-content:space-between;
-    margin-right: 20px;
-}
-
-.center {
-    display: flex;
-    justify-content: start;
+    justify-content: space-evenly;
 }
