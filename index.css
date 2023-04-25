@@ -1,15 +1,25 @@
 .header {
     background-color: aqua;
+    background-image: linear-gradient(aqua, white);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.heading {
     display: flex;
     justify-content: center;
-    padding: 0.5rem;
+    padding: 0.25rem;
 }
 
 .nav {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: flex;
     justify-content: space-evenly;
     padding: 0.25rem;
+}
+
+a {
+    text-decoration: none;
 }
 
 .main {
@@ -18,10 +28,12 @@
 }
 
 #extraText {
-    background-color: aliceblue;
+    background-color: aqua;
+    background-image: linear-gradient(white, lightgrey);
+    display: none;
 }
 
-.projects {
+#projects {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -29,7 +41,9 @@
     justify-content: center;
 }
 
-.icons {
+#footer {
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
+    margin-top: 0.5rem;
 }
