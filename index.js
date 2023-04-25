@@ -3,10 +3,10 @@ function readMore() {
     const btn = document.getElementById("btn-readMore")
     if (x.style.display === "none") {
       x.style.display = "block";
-      btn.text = "Read less";
+      btn.textContent = "Read less";
     } else {
       x.style.display = "none";
-      btn.text = "Read more";
+      btn.textContent = "Read more";
     }
 }
 
