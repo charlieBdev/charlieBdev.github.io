@@ -1,6 +1,6 @@
 .header {
     background-color: aqua;
-    background-image: linear-gradient(aqua, white);
+    background-image: linear-gradient(#ac41ff, #4CFFE0);
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
 }
@@ -9,6 +9,10 @@
     display: flex;
     justify-content: center;
     padding: 0.25rem;
+}
+
+h1 {
+    color: black;
 }
 
 .nav {
@@ -45,5 +49,11 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 0.5rem;
+    align-items: flex-end;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    background-color: aqua;
+    background-image: linear-gradient(#4CFFE0, #ac41ff);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
