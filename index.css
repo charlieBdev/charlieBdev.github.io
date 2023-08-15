@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 header {
     background-color: aqua;
     background-image: linear-gradient(135deg, #ac41ff, #4CFFE0);
