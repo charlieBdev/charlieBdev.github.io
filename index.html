@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
 </head>
-<body class="container-fluid">
+<body class="container-fluid bg-dark">
 
   <header>
 
@@ -29,21 +29,39 @@
 
     <!-- <h2 class="text-center">About me</h2> -->
     <div id="about">
-      <p style="margin-bottom: 0; margin-top: 1rem;" class="text-center">Hi! I'm a Junior Full Stack Web Developer from <a href="https://en.wikipedia.org/wiki/Sheffield" target="_blank">Sheffield</a> with skills in <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>SQL</b>, <b>Test Driven Development</b>, and <b>React</b>.</p>
+      <p style="margin-bottom: 0; margin-top: 1rem;" class="text-center text-light">Hi! I'm a Junior Full Stack Web Developer from <a href="https://en.wikipedia.org/wiki/Sheffield" target="_blank">Sheffield</a> with skills in <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>SQL</b>, <b>Test Driven Development</b>, and <b>React</b>.</p>
       <div class="col text-center">
         <button class="btn btn-link" style="padding: 0; text-decoration: none;" onclick="readMore()" id="btn-readMore">Read more</button>
       </div>      
             
-      <div id="extraText">
-        <p>I have a BSc in Applied Computing from 2007 🎓 and finished a <a href="http://sheffcol.ac.uk/Skills-Bootcamps" target="_blank">Software Development Bootcamp</a> in December 2022. I also passed 🥳 <a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x" target="_blank">CS50's Intro to Computer Science</a> in April 2023.</p>
-        <p>In August 2023 I successfully completed a Software Engineering Bootcamp with <a href="https://northcoders.com/our-courses/coding-bootcamp" target="_blank">Northcoders</a>. I learned so much in this short time and have really levelled up my development skills. I also met loads of great people and spent a large chunk of that time pair programming. I'm immensely proud of of final 'soundWaves' project below.</p>
-        <p>I study coding almost every day and have done so consistently since October 2022. Prior to that I was an English language teacher and spent my free time coding on sites like <a href="https://www.codecademy.com/learn" target="_blank">Codecademy</a> and <a href="https://www.freecodecamp.org/learn" target="_blank">freeCodeCamp</a>.</p>
-        <p>I hope to become a Junior Front-End Developer in the next 6 months and in the meantime will keep learning and adding new projects here.</p>
-        <p>Other interests: BJJ 🥋, reading non-fiction 📚, listening to random podcasts, gaming, and making electronic music/scratching.</p>
-        <p>Thank you! 🙏</p>
+      <div id="extraText" class="text-light bg-gradient-dark">
+        <p>In August 2023 I successfully completed a Software Engineering Bootcamp with <a href="https://northcoders.com/our-courses/coding-bootcamp" target="_blank">Northcoders</a>. In this short time I learned so much and have really leveled up my development skills. I also met loads of great people and spent a large chunk of that time pair programming.</p>
+        <p>I also have a BSc in Applied Computing from 2007 🎓 and finished a part-time <a href="http://sheffcol.ac.uk/Skills-Bootcamps" target="_blank">Software Development Bootcamp</a> in December 2022. I also passed 🥳 <a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x" target="_blank">CS50's Intro to Computer Science</a> in April 2023.</p>
+        <p>Coding almost every day is a hobby I have done so consistently since October 2022.</p>
+        <p>Prior to deciding to career change I was an English language teacher and spent much of my free time coding on sites like <a href="https://www.codecademy.com/learn" target="_blank">Codecademy</a> and <a href="https://www.freecodecamp.org/learn" target="_blank">freeCodeCamp</a>.</p>
+        <p>My career goal is to become a Junior Front-End Developer in the next 6 months and in the meantime will keep learning and adding new projects here.</p>
+        <p>Other interests:</p>
+        <ul>
+          <li>
+            <p>BJJ 🥋 - started 8 years ago and am a brown belt</p>
+          </li>
+          <li>
+            <p>Reading - currently Snow Crash and Tricks of the Mind by Derren Brown 📚</p>
+          </li>
+          <li>
+            <p>Listening to podcasts - The News Agents, The Rest is Politics, The Trawl, Full Disclosure, Sam Harris</p>
+          </li>
+          <li>
+            <p>Gaming - Zelda Tears of the Kingdom at the moment</p>
+          </li>
+          <li>
+            <p>Making electronic music in Ableton or on my Akai MPC Live and scratching on my Rane Seventy mixer.</p>
+          </li>
+        </ul>
+        <p>🙏</p>
       </div>
             
-      <p class="text-center">Check out my projects below and get in touch if you'd like to chat about a role, career advice, or life in general!</p>
+      <p class="text-center text-light">Check out my projects below and get in touch if you'd like to chat about a role, career advice, or life in general!</p>
     
     </div>
 
@@ -56,9 +74,9 @@
         <div class="card-body d-flex flex-column">
           <h5 class="card-title">SoundWaves</h5>
           <p class="card-text">A more accessible Twitter experience.</p>
-          <p class="card-text">Northcoders final team project. Carefully planned with wireframes, component trees, a <b>Kanban Board</b> (Trello), and <b>standups</b> every morning to communicate our previous work, plans, and blockers.</p>
-          <p class="card-text">Tech stack: <b>Next.js</b>, <b>TypeScript</b>, <b>AssemblyAI</b> for transcripts, <b>Supabase</b>, <b>Tailwind</b>, and <b>React Mic</b>.</p>
-          <a href="" target="_blank" class="btn btn-outline-primary mt-auto">Coming soon...</a>
+          <!-- <p class="card-text">Northcoders final team project. Carefully planned with wireframes, component trees, a <b>Kanban Board</b> (Trello), and <b>standups</b> every morning to communicate our previous work, plans, and blockers.</p> -->
+          <p class="card-text">Tech stack: <b>Next.js</b>, <b>TypeScript</b>, <b>AssemblyAI</b> for transcripts, <b>Supabase</b>, and <b>Tailwind</b>.</p>
+          <a href="" target="_blank" class="btn btn-light mt-auto">Coming soon...</a>
         </div>
       </div>
 
@@ -67,8 +85,8 @@
         <div class="card-body d-flex flex-column">
           <h5 class="card-title">NC News</h5>
           <p class="card-text">Somewhat of a Reddit clone.</p>
-          <p class="card-text">The <a href="https://github.com/charlieBdev/nc_news">backend</a> REST API was made using <b>Express</b>, <b>Postgres</b>, and <b>TDD</b> with <b>Jest</b> and <b>Supertest</b>. The <a href="https://www.freecodecamp.org/news/the-model-view-controller-pattern-mvc-architecture-and-frameworks-explained/#:~:text=MVC%20stands%20for%20model%2Dview,controls%20how%20data%20is%20displayed">MVC</a> pattern was used for the backend API calls. <b>React</b> for the <a href="https://github.com/charlieBdev/nc-news">frontend</a> with <b>Vanilla CSS</b>.</p>
-          <a href="https://euphonious-scone-36cbae.netlify.app/" target="_blank" class="btn btn-outline-primary mt-auto">Go to NC News</a>
+          <p class="card-text">The <a href="https://github.com/charlieBdev/nc_news">backend</a> REST API made using <b>Express</b>, <b>Postgres</b>, and <b>TDD</b> with <b>Jest</b> & <b>Supertest</b>. <a href="https://www.freecodecamp.org/news/the-model-view-controller-pattern-mvc-architecture-and-frameworks-explained/#:~:text=MVC%20stands%20for%20model%2Dview,controls%20how%20data%20is%20displayed">MVC</a> was used for the backend API calls. <b>React</b> for the <a href="https://github.com/charlieBdev/nc-news">frontend</a> with <b>Vanilla CSS</b>.</p>
+          <a href="https://euphonious-scone-36cbae.netlify.app/" target="_blank" class="btn btn-light mt-auto">Go to NC News</a>
         </div>
       </div>
 
@@ -78,7 +96,7 @@
           <h5 class="card-title">Meteorites App</h5>
           <p class="card-text">Use the <a href="https://data.nasa.gov/resource/gh4g-9sfh.json">NASA Meteroite Landings API</a> to get data on Meteorites in a given year.</p>
           <p class="card-text"><b>Axios</b> was used for API calls and React on the frontend.</p>
-          <a href="https://precious-madeleine-f3b23d.netlify.app/" target="_blank" class="btn btn-outline-primary mt-auto">Go to the app</a>
+          <a href="https://precious-madeleine-f3b23d.netlify.app/" target="_blank" class="btn btn-light mt-auto">Go to the app</a>
         </div>
       </div>
 
@@ -88,7 +106,7 @@
           <h5 class="card-title">myDictionary</h5>
           <p class="card-text">To help English language learners remember vocabulary in a personalised way.</p>
           <p class="card-text">Made using <a href="https://flask.palletsprojects.com/en/2.3.x/" target="_blank">Flask</a>, Python, HTML, <b>SQLite3</b>, and <b>Bootstrap</b>.</p>
-          <a href="https://www.youtube.com/embed/SKNA0gKNQ8o" target="_blank" class="btn btn-outline-primary mt-auto">Watch a demo</a>
+          <a href="https://www.youtube.com/embed/SKNA0gKNQ8o" target="_blank" class="btn btn-light mt-auto">Watch a demo</a>
         </div>
       </div>
 
@@ -98,7 +116,7 @@
           <h5 class="card-title">Sunny Surfboards</h5>
           <p class="card-text">Helps staff calculate totals for their customers when renting surfboards and wetsuits.</p>
           <p class="card-text">Created using <b>WinForms</b>, <b>C#</b>, and <b>.NET</b>.</p>
-          <a href="https://github.com/bigspambot/Sunny-Surfboards" target="_blank" class="btn btn-outline-primary mt-auto">View the repo</a>
+          <a href="https://github.com/bigspambot/Sunny-Surfboards" target="_blank" class="btn btn-light mt-auto">View the repo</a>
         </div>
       </div>
     
@@ -108,7 +126,7 @@
           <h5 class="card-title">The Music Gallery</h5>
           <p class="card-text">A small collection of music-related photogaphy.</p>
           <p class="card-text">Crafted using CSS to behave responsively <a href="https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/" target="_blank">grid</a> and hosted on Netlify.</p>
-          <a href="https://themusicgallery.netlify.app" target="_blank" class="btn btn-outline-primary mt-auto">Visit the gallery</a>
+          <a href="https://themusicgallery.netlify.app" target="_blank" class="btn btn-light mt-auto">Visit the gallery</a>
         </div>
       </div>
 
@@ -118,7 +136,7 @@
           <h5 class="card-title">Blackjack</h5>
           <p class="card-text">A <a href="https://scrimba.com/" target="_blank">Scrimba</a> tutorial with added features.</p>
           <p class="card-text">Utilises JS arrays, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects" target="_blank">objects</a>, bools, if/else statements, logical and comparison operators, and loops.</p>
-          <a href="https://pontoon.netlify.app" target="_blank" class="btn btn-outline-primary mt-auto">Play Blackjack</a>
+          <a href="https://pontoon.netlify.app" target="_blank" class="btn btn-light mt-auto">Play Blackjack</a>
         </div>
       </div>
 
@@ -128,31 +146,31 @@
           <h5 class="card-title">Passenger Counter</h5>
           <p class="card-text">A handy counter for train station passenger counters!</p>
           <p class="card-text">Implemented using JavaScript <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions" target="_blank">functions</a> and <a href="https://www.w3schools.com/js/js_arrays.asp" target="blank">arrays</a> and the <a href="https://www.w3schools.com/js/js_htmldom.asp" target="_blank">DOM</a> to modify the HTML.</p>
-          <a href="/counter/counter.html" target="_blank" class="btn btn-outline-primary mt-auto">Count passengers</a>
+          <a href="/counter/counter.html" target="_blank" class="btn btn-light mt-auto">Count passengers</a>
         </div>
       </div>
 
       <!-- (nasalisation) -->
 
-      <div class="card" style="width: 18rem;">
+      <!-- <div class="card" style="width: 18rem;">
         <img src="/img/loveSpace.png" style="height: 10rem;" class="card-img-top" alt="Love Space Landing Page">
         <div class="card-body d-flex flex-column">
           <h5 class="card-title">Love Space Landing Page</h5>
           <p class="card-text">A landing page for a fictional space campaign.</p>
           <p class="card-text">The background is from <a href="https://giphy.com/" target="_blank">Giphy</a>, the font from <a href="https://www.1001fonts.com/" target="_blank">1,001 Fonts</a>, and the colours were picked using <a href="https://coolors.co/" target="_blank">Coolors</a>.</p>
-          <a href="https://lovespaceexpo.netlify.app" target="_blank" class="btn btn-outline-primary mt-auto">Land on the page</a>
+          <a href="https://lovespaceexpo.netlify.app" target="_blank" class="btn btn-light mt-auto">Land on the page</a>
         </div>
-      </div>
+      </div> -->
 
-      <div class="card" style="width: 18rem;">
+      <!-- <div class="card" style="width: 18rem;">
         <img src="/img/birthdayGIFt.png" style="height: 10rem;" class="card-img-top" alt="Birthday GIFt SIte">
         <div class="card-body d-flex flex-column">
           <h5 class="card-title">Birthday GIFt Site</h5>
           <p class="card-text">A super cool website for my AI friend's birthday.</p>
           <p class="card-text">Brought to life with <b>CSS</b>: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient" target="_blank">linear gradients</a>, <a href="https://css-tricks.com/wp-content/uploads/2022/02/css-flexbox-poster.png" target="_blank">flexbox</a>, the grouping selector, and <a href="https://www.w3schools.com/CSSref/sel_hover.php" target="_blank">:hover</a>.</p>
-          <a href="https://happybdaygift.netlify.app" target="_blank" class="btn btn-outline-primary mt-auto">Peruse the GIFts</a>
+          <a href="https://happybdaygift.netlify.app" target="_blank" class="btn btn-light mt-auto">Peruse the GIFts</a>
         </div>
-      </div>
+      </div> -->
 
     </div>
 
